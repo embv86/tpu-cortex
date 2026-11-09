@@ -29,6 +29,8 @@
 
 ## 🛠 Технологический стек
 
+Инструкция по локальному кластеру: [k3s в WSL2](infra/k3s/README.md).
+
 * **Backend:** Java 21 / Kotlin, Spring Boot 3.3+, Spring Cloud Gateway, Resilience4j, Apache Kafka, Testcontainers.
 * **ML / AI:** Python, scikit-learn, LangChain4j / Spring AI, Qdrant, Ollama (Llama 3 / Mistral / Qwen 2.5).
 * **Инфраструктура & Observability:** Kubernetes (k3s), Helm, Prometheus, Grafana, OpenTelemetry, Jaeger.

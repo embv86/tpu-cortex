@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cortex-system
+  labels:
+    app.kubernetes.io/part-of: cortex
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cortex-apps
+  labels:
+    app.kubernetes.io/part-of: cortex

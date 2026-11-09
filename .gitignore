@@ -1,1 +1,3 @@
 yougile-tasks/
+.kube/
+*.kubeconfig
